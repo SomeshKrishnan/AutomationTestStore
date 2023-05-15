@@ -1,0 +1,12 @@
+{
+    "homeBtn" : "a.active.menu_home",
+    "searchProduct" :"#featured [title='Skinsheen Bronzer Stick']",
+    "wishlist" : "div.wishlist",
+    "addToCart" : "ul.productpagecart",
+    "productCheck" : "table > tbody > tr:nth-child(2) > td:nth-child(2) > a",
+    "cartCheckout" : "#cart_checkout1",
+    "mainText" : "span.maintext",
+    "checkOutBtn" : "#checkout_btn",
+    "successMsg" : "//*[text()='Thank you for shopping with us!']",
+    "breadcrumbText" : "ul.breadcrumb > li:nth-child(6) > a"
+}

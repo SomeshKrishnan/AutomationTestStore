@@ -1,0 +1,29 @@
+{
+  "name": "seleniumjsbdd",
+  "version": "1.0.0",
+  "description": "Automation Test Store Project",
+  "main": "index.js",
+  "scripts": {
+    "pretest": "wdio wdio.conf.js",
+    "test": "wdio wdio.conf.js",
+    "allure-reports": "node_modules/.bin/allure generate ./reports/allure/allure-results/  -o ./reports/allure/allure-report/ --clean && allure open ./reports/allure/allure-report"
+  },
+  "author": "Somesh Krishnan",
+  "license": "ISC",
+  "devDependencies": {
+    "@wdio/allure-reporter": "^8.10.2",
+    "@wdio/cli": "^8.10.2",
+    "@wdio/cucumber-framework": "^8.10.3",
+    "@wdio/local-runner": "^8.10.2",
+    "@wdio/spec-reporter": "^8.10.2",
+    "allure-commandline": "^2.22.0",
+    "assert": "^2.0.0",
+    "chai": "^4.3.7",
+    "chromedriver": "^113.0.0",
+    "cucumber": "^6.0.7",
+    "cucumber-html-reporter": "^7.1.0",
+    "selenium-webdriver": "^4.9.2",
+    "wdio-allure-reporter": "^0.8.3",
+    "wdio-chromedriver-service": "^8.1.1"
+  }
+}
